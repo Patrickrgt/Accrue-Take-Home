@@ -24,6 +24,49 @@ Given more time, I would focus on:
 - **Learning Jest**: To implement comprehensive automated testing.
 - **Integrating Swagger**: For improved API documentation and testing.
 - **State Management**: Fixing the refresh state issues that arise when items are deleted or updated, and enabling the editing of room names, numbers, and prices.
+- **More Editing Features**: Manage the changes for hotel number, price and beds.
+
+## API Overview
+
+This project features a REST API with the following endpoints:
+
+### 1. `/api/hotelRooms`
+
+- **Description**: This endpoint retrieves a list of all hotel rooms, including their details.
+- **Method**: `GET`
+- **URL**: `http://localhost:3000/api/hotelRooms`
+- **Response Example**:
+  ```json
+  [
+    {
+      "id": 1,
+      "name": "Deluxe Room",
+      "number": "101",
+      "price": "150",
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "name": "Standard Room",
+      "number": "102",
+      "price": "100",
+      "status": "occupied"
+    }
+  ]
+
+### 2. `/api/hotelRooms/{id}`
+
+- **Method**: `GET`
+- **Description**: `Provides details about a specific hotel room identified by its ID.`
+- **Example Response**:
+   ```json
+  {
+  "id": 1,
+  "name": "Deluxe Room",
+  "number": "101",
+  "price": "150",
+  "status": "available"
+   }
 
 ## Learn More
 
