@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "number": "101",
+    "beds": 2,
+    "price": 100,
+    "isReserved": false,
+    "currentOccupant": null,
+    "checkInDate": null,
+    "checkOutDate": null
+  },
+  {
+    "id": 2,
+    "number": "102",
+    "beds": 1,
+    "price": 80,
+    "isReserved": false,
+    "currentOccupant": null,
+    "checkInDate": null,
+    "checkOutDate": null
+  },
+  {
+    "id": 3,
+    "number": "103",
+    "beds": 2,
+    "price": 100,
+    "isReserved": true,
+    "currentOccupant": "asdfasdda",
+    "checkInDate": "2024-05-28",
+    "checkOutDate": "2024-05-29"
+  },
+  {
+    "id": 4,
+    "number": "104",
+    "beds": 1,
+    "price": 80,
+    "isReserved": true,
+    "currentOccupant": "dasdsad",
+    "checkInDate": "2024-06-28",
+    "checkOutDate": "2024-07-01"
+  },
+  {
+    "id": 5,
+    "number": "105",
+    "beds": 2,
+    "price": 100,
+    "isReserved": false,
+    "currentOccupant": null,
+    "checkInDate": null,
+    "checkOutDate": null
+  }
+]
