@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Project with REST API
+
+This project is a [Next.js](https://nextjs.org/) application bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It is designed to demonstrate a RESTful API integration within a Next.js framework.
 
 ## Getting Started
 
-First, run the development server:
+Open `http://localhost:3000` with your browser to see the result. You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+API routes can be accessed on `http://localhost:3000/api/hello`. This endpoint can be edited in `pages/api/hello.ts`. The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as API routes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project utilizes an environment variable to switch the API URL, making it flexible for different deployment environments.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Integration of ChatGPT in Workflow
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+I do want to be transparent and say that I do use ChatGPT to assist with various development tasks, enhancing productivity and efficiency in my workflow.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Technologies and Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **REST API**: Built on Next.js, this project demonstrates how to integrate and manage a RESTful API.
+
+## Future Enhancements
+
+Given more time, I would focus on:
+- **Learning Jest**: To implement comprehensive automated testing.
+- **Integrating Swagger**: For improved API documentation and testing.
+- **State Management**: Fixing the refresh state issues that arise when items are deleted or updated, and enabling the editing of room names, numbers, and prices.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
+To learn more about Next.js, refer to the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Your feedback and contributions to [the Next.js GitHub repository](https://github.com/vercel/next.js/) are welcome!
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Deploy your Next.js app easily using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme). Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
