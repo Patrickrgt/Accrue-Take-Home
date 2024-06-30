@@ -8,7 +8,7 @@ Open `http://localhost:3000` with your browser to see the result. You can start 
 
 API routes can be accessed on `http://localhost:3000/api/hello`. This endpoint can be edited in `pages/api/hello.ts`. The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as API routes.
 
-This project utilizes an environment variable to switch the API URL, making it flexible for different deployment environments.
+This project utilizes an environment variable to switch the API URL, making it flexible for different deployment environments. The environment file is only here for testing reference. I would never push out an enviornment file in production.
 
 ## Integration of ChatGPT in Workflow
 
